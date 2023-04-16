@@ -1,0 +1,29 @@
+[package]
+name = "hello_bevy"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.9"
+
+[[example]]
+name = "hello_world"
+path = "examples/hello_world.rs"
+
+[[example]]
+name = "bloom"
+path = "examples/2d/bloom.rs"
+
+[[example]]
+name = "move_sprite"
+path = "examples/2d/move_sprite.rs"
+
+[[example]]
+name = "3d_scene"
+path = "examples/3d/3d_scene.rs"
+
+[[example]]
+name = "fox"
+path = "examples/animation/fox.rs"
